@@ -8,3 +8,5 @@ class MyTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+#this unit tests the multiple string function

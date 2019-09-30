@@ -1,6 +1,6 @@
 """CIS 189
 Alex Rickels
-Module 6 Topic 3 Assignment 2"""
+Module 6 Topic 3 Assignment 2 """
 
 
 def multiple_string(statement, n):  # function
