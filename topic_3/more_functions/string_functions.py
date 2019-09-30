@@ -4,7 +4,10 @@ Module 6 Topic 3 Assignment 2 """
 
 
 def multiple_string(statement, n):  # function
-    """ this function takes a statement and prints it n times"""  # docstring
+    """ 
+    :param statement: the statement to be printed n determined number of times
+    :param n: the number of times the statement will be printed
+    :returns string of 'statement' printed 'n' times"""  # docstring
     return statement * n
 
 
