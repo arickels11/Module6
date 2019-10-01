@@ -5,7 +5,7 @@ Module 6 Topic 5 Assignment"""
 
 def measurements(rec_list):  # outer function
     """
-    :param rec_list: variable list of lenth and width of rectangle, or length of a square
+    :param rec_list: variable list of length and width of rectangle, or length of a square
     :return: area and perimeter of the rectangle
     """
 
