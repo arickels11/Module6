@@ -10,11 +10,11 @@ def score_input(test_name, test_score=0, invalid_message='Invalid test score, tr
     :param invalid_message: optional input, message received if score input is not between 0 and 100
     :return: the test name and the valid test score"""
 
-    if test_score in range(0, 100):
+    if test_score in range(0, 101):
         return test_name + ": " + str(test_score)
     else:
         return invalid_message
 
 
 if __name__ == '__main__':
-    print(score_input("main test", -20, "WRONG"))
+    print(score_input("main test", 120, "WRONG"))
