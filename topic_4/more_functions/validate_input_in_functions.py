@@ -10,19 +10,21 @@ def score_input(test_name, test_score=0, invalid_message='Invalid test score, tr
     :param invalid_message: optional input, message received if score input is not between 0 and 100
     :return: the test name and the valid test score
     """
-    pass
+
+    return test_name + ": " + str(test_score)
+
     # while True:
     #     try:
     #         test_score = int(input("What was your test score?"))
-    #     except ValueError:
-    #         print(invalid_message)
-    #     if 0 >= test_score:
-    #         return True
-    #     if 100 <= test_score:
-    #         return True
-
-    # return {test_name: test_score}
+    # #     except ValueError:
+    # #         print(invalid_message)
+    # #     if 0 >= test_score:
+    # #         return True
+    # #     if 100 <= test_score:
+    # #         return True
+    # #
+    # # return {test_name: test_score}
 
 
 if __name__ == '__main__':
-    score_input("pasta type test")
+    print(score_input("pasta type test"))
