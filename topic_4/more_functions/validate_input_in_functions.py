@@ -17,4 +17,4 @@ def score_input(test_name, test_score=0, invalid_message='Invalid test score, tr
 
 
 if __name__ == '__main__':
-    print(score_input("pasta type test"))
+    print(score_input("main test", -20, "WRONG"))
